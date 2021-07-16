@@ -1,4 +1,71 @@
-body {
-background-color: rgb(251, 163, 104);
+html {
+    line-height: 1.15; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+  }
 
+body {
+    background-color: rgb(255, 211, 182);
+    margin: 5px;
 }
+
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+  }
+h2{
+  font-size: 1.5em;
+    margin: 0;
+}
+  
+body .main {
+    
+    justify-content: space-around;  
+    align-items: stretch;
+}
+
+.nav{
+  background-color: rgb(195, 86, 13) ;
+  height: 50px; 
+  margin: 0;
+  padding: 5px;
+  color: black;
+}
+
+.blackbox {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    width: auto;
+    height: 500px;
+    background-color: rgb(68, 64, 64);
+  }
+
+  .blackbox img{
+    margin-left: 350px;
+    height: 300px;
+  }
+  
+  .sumbox {
+    width: auto;
+    height: 200px;
+    padding: 10px;
+    background-color: rgb(228, 105, 4);
+  }
+  
+  .orangebox {
+    width: auto;
+    height: auto;
+    padding: 10px;
+    background-color: orange;
+    
+  }
+
+  .orangebox ul li{
+    list-style: none;
+    margin-top: 30px;
+    
+  }
+
+  li img{
+    height: 350px;
+  }
