@@ -67,5 +67,9 @@ body .main {
   }
 
   li img{
-    height: 350px;
+    height: 325px;
+  }
+
+  li p{
+    width: 400;
   }
