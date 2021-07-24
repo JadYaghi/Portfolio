@@ -23,13 +23,47 @@ body .main {
     align-items: stretch;
 }
 
-.nav{
+nav{
+  top: 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  position:fixed;
   background-color: rgb(195, 86, 13) ;
-  height: 50px; 
+  height: auto; 
   margin: 0;
   padding: 5px;
   color: black;
 }
+
+nav img {
+  height: 70px;
+  width: 71px;   
+}
+
+nav ul{
+  margin:  0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+nav ul li {
+  margin: 10px;
+  list-style: none;
+  
+}
+
+nav ul li a{
+  text-decoration: none;
+}
+
+nav ul li :nth-child(2){
+  position: relative;
+  right: 5px;
+}
+
+nav p{margin: 0;}
 
 .blackbox {
     display: flex;
@@ -37,26 +71,27 @@ body .main {
     align-content: center;
     width: auto;
     height: 500px;
-    background-color: rgb(68, 64, 64);
+    background-color: #424242;
   }
 
   .blackbox img{
+    margin-top: 10%;
     margin-left: 350px;
-    height: 300px;
+    height: 350px;
   }
   
   .sumbox {
     width: auto;
     height: 200px;
     padding: 10px;
-    background-color: rgb(228, 105, 4);
+    background-color: rgb(172, 81, 6);
   }
   
   .orangebox {
     width: auto;
     height: auto;
     padding: 10px;
-    background-color: orange;
+    background-color: rgb(194, 128, 4);
     
   }
 
@@ -71,5 +106,5 @@ body .main {
   }
 
   li p{
-    width: 400;
+    
   }
